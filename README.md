@@ -1,16 +1,20 @@
-# sowhut
+# SOWHUT
 
-A new Flutter project.
+SOWHUT provide easy access to the National Aeronautics and Space Administration (NASA) Langley Research Center (LaRC) Prediction of Worldwide Energy Resource (POWER) Project data. It takes several input parameters (Location data, data name, temporal resolution, and date range) to provide customisable data for the user. For the daily temporal resolution, SOWHUT will convert the data taken into weekly averages.
 
-## Getting Started
+## How to build
+1. Create a keystore (If not present)
+https://flutter.dev/docs/deployment/android#create-an-upload-keystore
 
-This project is a starting point for a Flutter application.
+2. Create a key.properties
+https://flutter.dev/docs/deployment/android#reference-the-keystore-from-the-app
 
-A few resources to get you started if this is your first Flutter project:
+3. Build the application apk
+https://flutter.dev/docs/deployment/android#build-an-apk
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## References
+### NASA POWER Data
+The data was obtained from the National Aeronautics and Space Administration (NASA) Langley Research Center (LaRC) Prediction of Worldwide Energy Resource (POWER) Project https://power.larc.nasa.gov/ funded through the NASA Earth Science/Applied Science Program.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Logo Icon
+Logo made by https://www.freepik.com
